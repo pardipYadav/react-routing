@@ -24,7 +24,7 @@ function App() {
             </Route>
           </Route>
           <Route path="users" element={<UsersListing />} />
-          <Route path="users/:id" element={<UsersDetails />} />
+          <Route path="users/:id/:name?" element={<UsersDetails />} />
         </Route>
         <Route path="college" element={<College />}>
           <Route index element={<Student />} />
